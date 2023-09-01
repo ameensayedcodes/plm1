@@ -1,0 +1,27 @@
+site_id: "13"
+site_name: "azure"
+site_description: "a cloud platform"
+site_status: "ready to use"
+site_la: "Libraries"
+site_responsible: {"name":"admin","email":"admin@harman.com"}
+site_architects: {"name":"architect","email":"admin@harman.com"}
+site_values.last_review_date: "2023-08-28"
+site_asil: "ASIL B"
+site_permissions: "Licensed"
+site_price: {"currency":"Rupees","amount":"100"}
+site_usage: ["https://www.azure.com"]
+site_license: "pay per usage"
+site_pcode: "515731"
+site_mrd: ["https://www.azure.com"]
+site_prd: ["https://www.azure.com"]
+site_gtm: ["https://www.azure.com"]
+site_aharoadmap: ["https://www.azure.com"]
+site_frop: ["https://www.azure.com"]
+site_businesscase: ["https://www.azure.com"]
+site_maturitylevel: "alpha"
+site_userguide: ["https://www.azure.com"]
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

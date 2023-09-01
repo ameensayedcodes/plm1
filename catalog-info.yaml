@@ -1,0 +1,36 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  id: "13"
+  name: "azure"
+  description: "a cloud platform"
+  version: "2.1.0"
+  status: "ready to use"
+  la: "Libraries"
+  responsible: {"name":"admin","email":"admin@harman.com"}
+  architects: {"name":"architect","email":"admin@harman.com"}
+  last_review_date: "2023-08-28"
+  asil: "ASIL B"
+  permissions: "Licensed"
+  price: {"currency":"Rupees","amount":"100"}
+  usage: ["https://www.azure.com"]
+  license: "pay per usage"
+  pcode: "515731"
+  mrd: ["https://www.azure.com"]
+  prd: ["https://www.azure.com"]
+  gtm: ["https://www.azure.com"]
+  aharoadmap: ["https://www.azure.com"]
+  frop: ["https://www.azure.com"]
+  businesscase: ["https://www.azure.com"]
+  maturitylevel: "alpha"
+  userguide: ["https://www.azure.com"]
+
+
+  annotations:
+    github.com/project-slug: ameensayedcodes/plm1
+    backstage.io/techdocs-ref: dir:.
+    forms.office.com/feedback: https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__WiGkvpUN1pLQ0g0RlNIMVZHRDlQVlA3RDc2S05TTS4u
+spec:
+  type: platform
+  lifecycle: Onboard
+  owner: "group:default/guests"
